@@ -1,0 +1,85 @@
+{
+  "name": "electron_home",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "build": {
+    "appId": "code-ninja",
+    "productName": "ninja",
+    "extraResources": "icon.png",
+    "extraFiles": "",
+    "asarUnpack": [],
+    "mac": {
+      "category": ""
+    },
+    "linux": {
+      "target": []
+    },
+    "squirrelWindows": {
+      "iconUrl": "https://path/to/valid/image.png",
+      "msi": true,
+      "useAppIdAsId": true
+    },
+    "win": {
+      "target": "squirrel"
+    },
+    "nsis": {
+      "createDesktopShortcut": "always",
+      "createStartMenuShortcut": true,
+      "runAfterFinish": true
+    }
+  },
+  "postinstall": "electron-builder install-app-deps",
+  "keywords": [
+    "Electron",
+    "code-ninja"
+  ],
+  "author": {
+    "name": "ninja works",
+    "email": "abc@abc.com"
+  },
+  "maintainer": "ninja works",
+  "homepage": "",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^5.0.1",
+    "electron-builder": "^21.0.15",
+    "jest": "^26.0.1",
+    "electron-builder-squirrel-windows": "^22.6.1",
+    "node-gyp": "^5.0.3",
+    "wait-for-expect": "^3.0.2",
+    "webrtc-adapter": "^7.5.1"
+  },
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.0.20",
+    "aes-js": "^3.1.2",
+    "axios": "^0.20.0",
+    "chunking-streams": "0.0.8",
+    "date-and-time": "^0.8.1",
+    "electron-is-dev": "^1.2.0",
+    "electron-log": "^4.1.2",
+    "electron-prompt": "^1.3.1",
+    "electron-squirrel-startup": "^1.0.0",
+    "electron-updater": "^4.3.1",
+    "electron-windows-badge": "^1.0.5",
+    "fluent-ffmpeg": "^2.1.2",
+    "jquery": "^3.4.1",
+    "jquery-validation": "^1.19.1",
+    "mark.js": "^8.11.1",
+    "node-rsa": "^1.0.8",
+    "pkcs7": "^1.0.2",
+    "popper.js": "^1.15.0",
+    "qrcode": "^1.4.1",
+    "request": "^2.88.0",
+    "simple-thumbnail": "^1.6.5",
+    "sqlite-cipher": "^0.3.6",
+    "strophe.js": "^1.3.4",
+    "url-metadata": "^2.4.0",
+    "uuid": "^3.3.2",
+    "validator": "^11.1.0",
+    "win-ca": "^3.2.0"
+  }
+}
