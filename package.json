@@ -45,11 +45,12 @@
   "homepage": "",
   "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "^8.5.1",
+    "electron": "^9.4.4",
     "electron-builder": "^21.0.15",
     "electron-builder-squirrel-windows": "^22.6.1",
     "jest": "^26.0.1",
     "node-gyp": "^5.0.3",
+    "spectron": "^11.1.0",
     "wait-for-expect": "^3.0.2",
     "webrtc-adapter": "^7.5.1"
   },
@@ -90,5 +91,4 @@
     "win-ca": "^3.4.5",
     "ws": "^7.3.1"
   }
-
 }
