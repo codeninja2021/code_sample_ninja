@@ -117,7 +117,7 @@
     "underscore": "^1.12.1",
     "url-metadata": "^2.4.0",
     "uuid": "^3.4.0",
-    "validator": "^11.1.0",
+    "validator": "^13.7.0",
     "vcards-js": "^2.10.0",
     "vcf": "^2.1.0",
     "webp-converter": "^2.3.3",
