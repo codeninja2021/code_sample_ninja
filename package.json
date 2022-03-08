@@ -1,7 +1,7 @@
 {
-  "name": "code sample ninja",
+  "name": "Code Ninja Sample",
   "version": "10.1.38",
-  "description": "code sample ninja",
+  "description": "Code Ninja Sample",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
@@ -14,8 +14,8 @@
     "debug1": "cross-env DEBUG=electron-packager"
   },
   "build": {
-    "appId": "code sample ninja",
-    "productName": "code sample ninja",
+    "appId": "Code Ninja Sample",
+    "productName": "Code Ninja Sample",
     "extraResources": "UploadedFiles/icon.png",
     "extraFiles": [
       "update_info.txt",
@@ -28,7 +28,7 @@
       "**/app/node_modules/webp-converter/**"
     ],
     "mac": {
-      "category": "code sample ninja.desktop"
+      "category": "Code Ninja Sample.desktop"
     },
     "linux": {
       "target": [
@@ -56,11 +56,11 @@
     "Mirsal"
   ],
   "author": {
-    "name": "code sample ninja",
-    "email": "info@code.ae"
+    "name": "Code Ninja Sample",
+    "email": "Code Ninja Sample"
   },
-  "maintainer": "code sample ninja",
-  "homepage": "code sample ninja",
+  "maintainer": "Code Ninja Sample",
+  "homepage": "",
   "license": "CC0-1.0",
   "devDependencies": {
     "electron": "^9.4.0",
@@ -99,13 +99,16 @@
     "keytar": "^7.7.0",
     "lodash": "^4.17.21",
     "mark.js": "^8.11.1",
+    "node-fetch": "^3.2.2",
     "node-notifier": "^8.0.1",
     "node-rsa": "^1.0.8",
     "os": "^0.1.1",
     "pkcs7": "^1.0.2",
+    "plist": "^3.0.4",
     "popper.js": "^1.15.0",
     "qrcode": "^1.4.1",
     "request": "^2.88.0",
+    "simple-get": "^4.0.1",
     "simple-thumbnail": "^1.6.5",
     "sqlite-cipher": "^0.3.6",
     "sqlite3": "^5.0.2",
