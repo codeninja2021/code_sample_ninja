@@ -79,7 +79,7 @@
     "@journeyapps/sqlcipher": "^5.3.1",
     "@ninja-labs/verify-pdf": "^1.0.0",
     "aes-js": "^3.1.2",
-    "axios": "^0.21.4",
+    "axios": "^1.6.2",
     "bluebird": "^3.5.5",
     "chunking-streams": "0.0.8",
     "date-and-time": "^0.14.2",
